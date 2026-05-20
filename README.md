@@ -1,3 +1,13 @@
+# Escolhas técnicas
+### Modularização do código
+Para garantir a legibilidade e a manutenibilidade do sistema, o código foi segmentado em funções específicas e bem delimitadas. Essa abordagem de modularização facilita a leitura, simplifica a manutenção e isola as responsabilidades de cada bloco de código.
+### Random
+Para evitar um comportamento estático e previsível na análise visual, foi implementado um gerador de números pseudoaleatórios (Random). O mecanismo calcula um incremento dinâmico de 0 a 14 cm para simular de forma mais realista o crescimento da vegetação nos trechos convencionais.
+### Crescimento baseado no clima
+A lógica de simulação dos trechos automatizados (TrechoComSensor) considera as variáveis climáticas da região para determinar o desenvolvimento da flora. Sob essa regra de negócio, estabeleceu-se um crescimento fixo de 8 cm para ambientes úmidos (onde a proliferação é acelerada) e de 4 cm para ambientes secos.
+
+---
+
 # Perguntas reflexivas
 
 ### 1- Por que não faz sentido para a Motiva que uma equipe execute apenas uma "Intervenção Operacional" genérica sem especificar qual é?

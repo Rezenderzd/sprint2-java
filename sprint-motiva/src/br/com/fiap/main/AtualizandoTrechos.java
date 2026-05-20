@@ -14,7 +14,7 @@ public class AtualizandoTrechos {
             if(trecho instanceof TrechoComSensor){
                 trecho.simularCrescimento();
             }else{
-                trecho.registrarCrescimento(random.nextInt(10)); //deixei como random para não ficar padronizado os valores de crescimento
+                trecho.registrarCrescimento(random.nextInt(15)); //deixei como random para não ficar padronizado os valores de crescimento
             }
         }
     }

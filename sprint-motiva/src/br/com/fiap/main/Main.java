@@ -21,18 +21,16 @@ public class Main {
 
         kmInicial = 10;
         kmFinal = 15;
-        nivelVegetacaoEmCm = 14;
+        nivelVegetacaoEmCm = 16;
 
         TrechoRodovia trecho1 = new TrechoRodovia("Br", kmInicial, kmFinal, nivelVegetacaoEmCm, "umido");
         trechos.add(trecho1);
-        trecho1.registrarCrescimento(10);
 
         kmInicial = 20;
         kmFinal = 30;
         nivelVegetacaoEmCm = 19;
         TrechoRodovia trecho2 = new TrechoRodovia("Rodo Anel", kmInicial, kmFinal, nivelVegetacaoEmCm, "seco");
         trechos.add(trecho2);
-        trecho2.registrarCrescimento(15);
 
         kmInicial = 15;
         kmFinal = 20;
