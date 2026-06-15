@@ -19,7 +19,7 @@ Pois a "Intervenção Operacional" é um conceito abstrato que não existe de fo
 ### 2- Qual a diferença arquitetural entre fazer um Trecho herdar de uma classe abstrata vs. implementar uma Interface?
 
 ### Resposta ### 
-Pois com a interface classes que não possuem relação poderiam utilizar esse mesmo método, já quando herda uma classe ela necessariamente precisa ter uma realção direta. Como foi visto em aula, celular e carro elétrico não herdam de classes iguais, mas possuem um mesmo método que seria recarregar a bateria. Já considerando carro e carro elétrico, eles possuem uma relação direta, contendo pneus, portas, entre outros atributos compartilhados, por isso que carro herda carro elétrico.
+Pois com a interface classes que não possuem relação poderiam utilizar esse mesmo método, já quando herda uma classe ela necessariamente precisa ter uma relação direta. Como foi visto em aula, celular e carro elétrico não herdam de classes iguais, mas possuem um mesmo método que seria recarregar a bateria. Já considerando carro e carro elétrico, eles possuem uma relação direta, contendo pneus, portas, entre outros atributos compartilhados, por isso que carro herda carro elétrico.
 
 ---
 
